@@ -1,0 +1,6 @@
+     def attack(self,target):
+          chance=random.randint(0,100)
+          if target.defe==chance:
+               target.hp-=(self.attk-(self.attk*target.defe))
+          else:
+            target.hp-=self.attk
